@@ -1,0 +1,174 @@
+a:visited {color: black;}
+a:link{	color:black;}
+a:hover {color: #F06F4B;}
+.aa:active {color: #F06F4B;}
+.aa:visited {color: gray;}
+.aa:link{	color:gray;}
+.aa:hover {color: black;}
+.aa:active {color: black;}
+
+.a1:visited {color: gray;}
+.a1:link{	color:gray;}
+.a1:hover {color: red;}
+.a1:active {color: red;}
+
+.a4:visited {color:#A999B5;}
+.a4:link{	color:#A999B5;}
+.a4:hover {color:black;}
+.a4:active {color:black;}
+
+.bg_top_top{
+	position:relative;
+	width: 100%;
+    height: 30px;
+    background:#F8F8F8;
+    overflow:hidden;
+}
+
+.nevigationBar{
+	position:absolute;
+	top:40px;
+	right:158px;
+	width:1000px;
+    height:288px;
+    background:white;
+    visibility:hidden;
+    z-index:2;
+    border-left:2px solid #EEEEEE;
+    border-right:2px solid #EEEEEE;
+    border-bottom:2px solid #EEEEEE;
+}
+		
+.bg{
+	width:1200px;
+	height:1000px;
+	background:white;
+}
+
+.head{
+	width:100%;
+	height:100px;
+	background:white;
+}
+
+
+.head_center{
+	float:left;
+	width:100%;
+	height:100px;
+	background:white;
+}
+
+.head_center_logo{
+	position:absolute;
+	top:45px;
+	left:20%;
+	width:200px;
+	height:70px;
+}
+.center_search{
+	float:right;
+	margin-right:20%;
+	margin-top:30px;
+	width:40%;
+	height:30px;
+	background:red;
+}
+.head_center_search_btn{
+	float:left;
+	width:20%;
+	height:30px;
+	background:blue;
+}
+
+.center{
+	float:left;
+	width:100%;
+	background:white;
+}
+
+.center_top_bar{
+	float:left;
+	width:100%;
+	height:40px;
+	background:#F06F4B;
+}
+
+.select_bar1{
+	float:left;
+	margin-left:20%;
+	width:13%;
+	height:40px;
+	background:#F06F4B;
+	line-height:40px;
+	color:white;
+}
+
+.select_bar{
+	float:left;
+	margin-left:2%;
+	width:13%;
+	height:40px;
+	line-height:40px;
+	background:#F06F4B;
+	color:white;
+}
+
+.center_photo{
+	position:relative;
+	width:100%;
+	height:400px;
+	background:white;
+	overflow:hidden;
+}
+
+.imgs{
+	position:absolute;
+	width:4800px;
+	height:400px;
+	background:white;
+	left:0px;
+}
+
+.center_1{
+	float:left;
+	width:100%;
+	height:400px;
+	background:white;
+}
+
+.downloadShow{
+	float:left;
+	width:100%;
+	height:360px;
+	background:yellow;
+}
+
+.center_2{
+	float:left;
+	width:100%;
+	height:300px;
+	background:white;
+}
+
+.center_2_left{
+	float:left;
+	width:70%;
+	height:250px;
+	background:blue;
+}
+
+.center_2_right{
+	float:right;
+	width:29%;
+	height:248px;
+	background:#E3DFDE;
+	border: 1px solid gray;
+}
+.bottom{
+	float:left;
+	width:100%;
+	height:100px;
+	background:#EAEAEA;
+	
+}

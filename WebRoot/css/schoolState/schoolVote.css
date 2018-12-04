@@ -1,0 +1,62 @@
+.bg{
+	width:1340px;
+	background:pink;
+}
+
+.head{
+	flaot:left;
+	width:1340px;
+	height:100px;
+	background:white;
+}
+
+.head_1{
+	flaot:left;
+	width:1340px;
+	height:50px;
+	background:white;
+}
+
+.head_2{
+	flaot:left;
+	width:1340px;
+	height:50px;
+	background:blue;
+}
+
+.center{
+	position:relative;
+	width:1340px;
+	height:630px;
+	background:yellow;
+}
+
+.card{
+	position:relative;
+	left:20px;
+	top:20px;
+	width:200px;
+	height:250px;
+	background:red;
+}
+
+.center_top{
+	float:left;
+	width:1340px;
+	height:560px;
+	background:yellow;
+}
+
+.center_bottom{
+	float:left;
+	width:1340px;
+	height:70px;
+	background:pink;
+}
+
+.devidePage{
+	float:left;
+	width:1340px;
+	height:30px;
+	background:white;
+}

@@ -1,0 +1,154 @@
+a:visited {color: black;}
+a:link{	color:black;}
+a:hover {color: #F06F4B;}
+a:active {color: #F06F4B;}
+
+.aa:visited {color: gray;}
+.aa:link{	color:gray;}
+.aa:hover {color: black;}
+.aa:active {color: black;}
+
+.aaa:visited {color: blue;}
+.aaa:link{	color:blue;}
+.aaa:hover {color: red;}
+.aaa:active {color: red;}
+
+.b:visited {color: black;}
+.b:link{	color:black;}
+.b:hover {color: red;}
+.b:active {color: red;}
+
+.a1:visited {color: gray;}
+.a1:link{	color:gray;}
+.a1:hover {color: red;}
+.a1:active {color: red;}
+
+.a4:visited {color:#A999B5;}
+.a4:link{	color:#A999B5;}
+.a4:hover {color:black;}
+.a4:active {color:black;}
+
+.bg_top_top{
+	position:relative;
+	width: 100%;
+    height: 30px;
+    background:#F8F8F8;
+    overflow:hidden;
+}
+
+.nevigationBar{
+	position:absolute;
+	top:40px;
+	right:158px;
+	width:1000px;
+    height:288px;
+    background:white;
+    visibility:hidden;
+    z-index:2;
+    border-left:2px solid #EEEEEE;
+    border-right:2px solid #EEEEEE;
+    border-bottom:2px solid #EEEEEE;
+}
+.bg{
+	width:1200px;
+	background:pink;
+}
+
+.head{
+	margin-top:20px;
+	width:100%;
+	height:60px;
+	background:white;
+}
+
+.center_search{
+	float:left;
+	margin-left:25%;
+	width:50%;
+	height:40px;
+	background:blue;
+}
+
+.center{
+	float:left;
+	width:100%;
+	background:white;
+}
+
+.center_top_bar{
+	float:left;
+	width:100%;
+	height:40px;
+	background:#F06F4B;
+}
+
+.select_bar1{
+	float:left;
+	margin-left:20%;
+	width:13%;
+	height:40px;
+	background:#F06F4B;
+	line-height:40px;
+	color:white;
+}
+
+.select_bar{
+	float:left;
+	margin-left:2%;
+	width:13%;
+	height:40px;
+	line-height:40px;
+	background:#F06F4B;
+	color:white;
+}
+
+.center_1{
+	float:left;
+	width:100%;
+	height:250px;
+	background:white;
+}
+
+.center_2{
+	float:left;
+	width:100%;
+	background:white;
+}
+
+.center_2_left{
+	float:left;
+	width:999px;
+	background:white;
+	border-left: 1px solid gray;
+}
+
+.center_2_right{
+	position:fixed;
+	width:190px;
+	height:480px;
+	right:115px;
+	top:410px;
+	background:white;
+}
+
+.center_3{
+	float:left;
+	margin-top:20px;
+	width:100%;
+	height:79px;
+}
+
+.center_4{
+	float:left;
+	width:100%;
+	height:500px;
+	background:white;
+}
+
+.bottom{
+	float:left;
+	width:100%;
+	height:100px;
+	background:#EAEAEA;
+	
+}

@@ -1,0 +1,200 @@
+a:visited {color:gray;}
+a:link{	color:gray;}
+a:hover {color: black;}
+a:active {color: black;}
+
+.b:visited {color:white;}
+.b:link{	color:white;}
+.b:hover {color: black;}
+.b:active {color: black;}
+
+.c:visited {color:black;}
+.c:link{	color:black;}
+.c:hover {color: blue;}
+.c:active {color: blue;}
+
+.a1:visited {color: gray;}
+.a1:link{	color:gray;}
+.a1:hover {color: red;}
+.a1:active {color: red;}
+
+.a4:visited {color:#A999B5;}
+.a4:link{	color:#A999B5;}
+.a4:hover {color:black;}
+.a4:active {color:black;}
+
+.bg_top_top{
+	position:relative;
+	width: 100%;
+    height: 30px;
+    background:#F8F8F8;
+    overflow:hidden;
+}
+
+.nevigationBar{
+	position:absolute;
+	top:40px;
+	right:158px;
+	width:1000px;
+    height:288px;
+    background:white;
+    visibility:hidden;
+    z-index:2;
+    border-left:2px solid #EEEEEE;
+    border-right:2px solid #EEEEEE;
+    border-bottom:2px solid #EEEEEE;
+}
+
+.bg{
+	width:1200px;
+	background:pink;
+}
+
+.head{
+	float:left;
+	width:100%;
+	height:500px;
+	background:white;
+}
+
+.head_1{
+	float:left;
+	width:100%;
+	height:80px;
+	background:white;
+}
+
+.head_2{
+	float:left;
+	width:100%;
+	height:50px;
+	background:#448BBF;
+}
+
+.head_3{
+	float:left;
+	width:100%;
+	height:370px;
+}
+
+.center{
+	float:left;
+	margin-left:15%;
+	width:70%;
+}
+
+.center_1{
+	float:left;
+	width:100%;
+	height:240px;
+}
+
+.center_1_left{
+	float:left;
+	margin-top:10px;
+	width:68%;
+	height:240px;
+	border-top:2px solid #448BBF;
+}
+
+.center_1_right{
+	float:right;
+	margin-top:10px;
+	width:30%;
+	height:240px;
+	border-top:2px solid #448BBF;
+}
+
+.center_2{
+	float:left;
+	width:100%;
+	margin-top:10px;
+	height:320px;
+}
+
+.center_2_left{
+	float:left;
+	margin-top:10px;
+	width:68%;
+	height:300px;
+	border-top:2px solid #448BBF;
+}
+
+.center_2_right{
+	float:right;
+	margin-top:10px;
+	width:30%;
+	height:300px;
+	border-top:2px solid #448BBF;
+}
+
+.center_3{
+	float:left;
+	margin-top:10px;
+	width:100%;
+	height:200px;
+	border-top:2px solid #448BBF;
+}
+
+.imgs{
+	position:relative;
+	top:10px;
+	width:840px;
+	height:150px;
+	overflow:hidden;
+}
+
+
+@keyframes bottomImg
+{
+	0%   {left:0px;top:5px;}
+	100% {left:-815px;top:5px;}
+}
+
+@-moz-keyframes bottomImg
+{
+	0%   {left:0px;top:5px;}
+	100% {left:-815px;top:5px;}
+}
+
+@-webkit-keyframes bottomImg
+{
+	0%   {left:0px;top:5px;}
+	100% {left:-815px;top:5px;}
+}
+
+@-o-keyframes bottomImg
+{
+	0%   {left:0px;top:5px;}
+	100% {left:-815px;top:5px;}
+}
+
+.photos{
+	position:absolute;
+	top:5px;
+	left:0px;
+	width:1650px;
+	height:150px;
+	background:white;
+	animation-name:bottomImg;
+	animation-delay:2s;
+    animation-duration:20s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate; 
+    animation-play-state:running; 
+}
+
+.bottom{
+	float:left;
+	width:100%;
+	height:150px;
+	background:white;
+}
+
+.bottom_1{
+	float:left;
+	width:100%;
+	height:50px;
+	background:#448BBF;
+	line-height:50px;
+}

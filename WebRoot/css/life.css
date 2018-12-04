@@ -1,0 +1,61 @@
+.aa:visited {color: #1077CC;}
+.aa:link{	color:#1077CC;}
+.aa:hover {color: red;}
+.aa:active {color: red;}
+
+.bg{
+	height: 600px;
+	width: 1400px;
+	background:white;
+	
+}
+
+.top {
+	float: left;
+	height: 80px;
+	width: 100%;
+}
+
+.select {
+	float: left;
+	height: 600px;
+	width: 10%;
+	background-color: #1077CC;
+}
+.content {
+	background-color:white;
+	float: left;
+	width: 90%;
+}
+
+.bottom {
+	float: left;
+	margin-top:500px;
+	height: 70px;
+	width: 80%;
+}
+
+.view_btn {
+	background-color:white;
+	float: left;
+	height: 500px;
+	width: 3%;
+}
+
+.view_content {
+	background-color:white;
+	float: left;
+	height: 450px;
+	width: 98%;
+	height:100%;
+	margin-left: 1%;
+}
+
+.contain{
+	background-color:white;
+	float: left;
+	margin-top:10px;
+	height: 470px;
+	width: 100%;
+	overflow:auto;
+}
